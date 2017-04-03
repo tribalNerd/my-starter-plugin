@@ -1,0 +1,5 @@
+table{border:1px solid #eeeeee;margin:25px auto;width:100%;}
+.form-table th{background:#f7f7f7;border:1px solid #eeeeee;color:#333333;font-size:11px;padding:10px 6px;text-align:left;}
+.form-table td{background:#fefefe;border:1px solid #eeeeee;color:#333333;font-size:14px;padding:10px 6px;vertical-align:top;}
+#poststuff {min-width: 320px;}
+.textcenter, .form-table th.textcenter, .textcenter p.submit{text-align:center;}
