@@ -32,13 +32,12 @@ A starter plugin for WordPress plugins development - non-multisite. This starter
 * Modify: readme.txt & README.md with proper plugin information/details & github links
 * Rename: /my-starter-plugin/ & my-starter-plugin.php
 * Setup: templates/home.php with form fields used for settings
-
-* class/class-adminarea.php All admin area related methods
-* class/class-core.php Public/private display, shortcodes, register post types, etc.
-* class/extended.php Manager class for global access methods (options, messages, etc)
-* class/process.php Process form posts (update/delete settings option)
-* templates/home.php Form Settings
-* Styles & Scripts: assets/script.js & assets/style.css
+* About: class/class-adminarea.php All admin area related methods
+* About: class/class-core.php Public/private display, shortcodes, register post types, etc.
+* About: class/extended.php Manager class for global access methods (options, messages, etc)
+* About: class/process.php Process form posts (update/delete settings option)
+* About: templates/home.php Form Settings
+* About: Styles & Scripts: assets/script.js & assets/style.css
 
 == End: A Starter Plugin Instructions (delete this section) ==
 
