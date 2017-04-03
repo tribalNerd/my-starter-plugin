@@ -29,9 +29,9 @@ if( function_exists( 'MyStarterPluginConstants' ) )
         'MY_STARTER_PLUGIN_PLUGIN_DIR'        => dirname( __FILE__ ),
         'MY_STARTER_PLUGIN_PLUGIN_BASE'       => plugin_basename( __FILE__ ),
 
-        'MY_STARTER_PLUGIN_MENU_NAME'         => __( 'Starter Plugin', 'my-starter-plugin' ),
+        'MY_STARTER_PLUGIN_MENU_NAME'         => __( 'My Starter Plugin', 'my-starter-plugin' ),
         'MY_STARTER_PLUGIN_PAGE_NAME'         => __( 'My Starter Plugin', 'my-starter-plugin' ),
-        'MY_STARTER_PLUGIN_PAGE_DESC'         => __( 'A starter plugin for WordPress plugin development - non-multisite.', 'my-starter-plugin' ),
+        'MY_STARTER_PLUGIN_PAGE_DESC'         => __( 'A starter plugin for WordPress plugin development.', 'my-starter-plugin' ),
         'MY_STARTER_PLUGIN_OPTION_NAME'       => 'mystarterplugin_',
         'MY_STARTER_PLUGIN_PLUGIN_NAME'       => 'my-starter-plugin',
 

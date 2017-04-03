@@ -17,19 +17,21 @@ A starter plugin for WordPress plugins development - non-multisite. This starter
 
 
 
+
 #### Start: A Starter Plugin Instructions (delete this section) 
 
-* Open: my-starter-plugin.php, readme.txt, README.md, all /classes/ and templates/home.php
+* Rename: /my-starter-plugin/ & my-starter-plugin.php e.g: /new-plugin-name/
+* Open: new-plugin-name.php, readme.txt, README.md, all /classes/ and templates/home.php
 * Find & Replace #1: (find) My Starter Plugin (replace) New Plugin Name
 * Find & Replace #2: (find) my-starter-plugin (replace) new-plugin-name
-* Find & Replace #3: (find) mystarterplugin_ (replace) newpluginname_
-* Find & Replace #4: (find) MyStarterPlugin (replace) MyPluginName
-* Find & Replace #5: (find) 1.0.0 (replace) With Proper Version Number
-* Modify: my-starter-plugin.php links() method with proper links
+* Find & Replace #3: (find) MyStarterPlugin (replace) NewPluginName
+* Find & Replace #4: (find) MY_STARTER_PLUGIN_ (replace) NEW_PLUGIN_NAME_
+* Find & Replace #5: Within new-plugin-name.php and both readme files (find) 1.0.0 (replace) With Proper Version Number
+* Find & Replace #6: Within new-plugin-name.php (find) mystarterplugin_ (replace) newpluginname_
+* Modify: new-plugin-name.php links() method with proper links
 * Modify: classes/class-adminarea.php links() method with proper links
 * Modify: classes/class-adminarea.php statement() method with proper statement
 * Modify: readme.txt & README.md with proper plugin information/details & github links
-* Rename: /my-starter-plugin/ & my-starter-plugin.php
 * Setup: templates/home.php with form fields used for settings
 * About: class/class-adminarea.php All admin area related methods
 * About: class/class-core.php Public/private display, shortcodes, register post types, etc.
@@ -39,6 +41,7 @@ A starter plugin for WordPress plugins development - non-multisite. This starter
 * About: Styles & Scripts: assets/script.js & assets/style.css
 
 #### End: A Starter Plugin Instructions (delete this section)
+
 
 
 
