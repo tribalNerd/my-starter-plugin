@@ -89,9 +89,9 @@ if ( ! class_exists( 'MyStarterPlugin_AdminArea' ) )
                     require_once( $this->templates .'/home.php' );
                 break;
 
-                // Example
-                //case 'settings':
-                //    require_once( $this->templates .'/settings.php' );
+                // Example Tab
+                //case 'example':
+                //    require_once( $this->templates .'/example.php' );
                 //break;
             }
 
