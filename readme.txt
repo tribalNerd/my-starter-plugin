@@ -21,16 +21,18 @@ A starter plugin for WordPress plugins development - non-multisite. This starter
 == Start: A Starter Plugin Instructions (delete this section) ==
 
 * Rename: /my-starter-plugin/ & my-starter-plugin.php e.g: /new-plugin-name/
-* Open: new-plugin-name.php, readme.txt, README.md, all /classes/ and templates/home.php
+* Open: new-plugin-name.php, readme.txt, README.md, all /classes/ and /templates/home.php
 * Find & Replace #1: (find) My Starter Plugin (replace) New Plugin Name
 * Find & Replace #2: (find) my-starter-plugin (replace) new-plugin-name
 * Find & Replace #3: (find) MyStarterPlugin (replace) NewPluginName
 * Find & Replace #4: (find) MY_STARTER_PLUGIN_ (replace) NEW_PLUGIN_NAME_
-* Find & Replace #5: Within new-plugin-name.php and both readme files (find) 1.0.0 (replace) With Proper Version Number
+* Find & Replace #5: Within new-plugin-name.php and both readme files (find) 1.0.0 (replace) with proper Version Number
 * Find & Replace #6: Within new-plugin-name.php (find) mystarterplugin_ (replace) newpluginname_
 * Modify: new-plugin-name.php links() method with proper links
 * Modify: classes/class-adminarea.php links() method with proper links
 * Modify: classes/class-adminarea.php statement() method with proper statement
+* Modify: classes/class-adminarea.php init() $this->tabs array, with needed tab/templates
+* Modify: classes/class-adminarea.php display() switch, to include new tab/templates
 * Modify: readme.txt & README.md with proper plugin information/details & github links
 * Setup: templates/home.php with form fields used for settings
 * About: class/class-adminarea.php All admin area related methods
@@ -76,7 +78,6 @@ A starter plugin for WordPress plugins development - non-multisite. This starter
 * Click the Activate link to start the plugin.
 
 
-
 == Frequently Asked Questions ==
 
 = Q) A Question Goes Here =
@@ -86,7 +87,8 @@ A) An answer goes here.
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0.0 2017-4-01 =
+
 * Release Notes
 * Created: Apr 01, 2017
 

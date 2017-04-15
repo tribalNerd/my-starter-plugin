@@ -12,7 +12,9 @@ if ( count( get_included_files() ) == 1 ){ exit(); }
  * @method menu()       Load Admin Area Menu
  * @method enqueue()    Enqueue Stylesheet and jQuery
  * @method display()    Display Website Admin Templates
- * @method tabs()       Load Admin Area Tabs
+ * @method tabs()       Display Admin Area Tabs
+ * @method links()      Display Sidebar Links
+ * @method statement()  Display Footer Statement
  * @method instance()   Class Instance
  */
 if ( ! class_exists( 'MyStarterPlugin_AdminArea' ) )
@@ -68,7 +70,7 @@ if ( ! class_exists( 'MyStarterPlugin_AdminArea' ) )
         final public function enqueue()
         {
             wp_enqueue_style( $this->plugin_name, plugin_dir_url( $this->plugin_file ) . 'assets/style.css', '', date( 'YmdHis', time() ), 'all' );
-            wp_enqueue_script( $this->plugin_name, plugin_dir_url( $this->plugin_file ) . 'assets/script.js', false, date( 'YmdHis', time() ), false );
+            wp_enqueue_script( $this->plugin_name, plugin_dir_url( $this->plugin_file ) . 'assets/script.js', array( 'jquery' ), date( 'YmdHis', time() ), false );
         }
 
 
@@ -86,6 +88,11 @@ if ( ! class_exists( 'MyStarterPlugin_AdminArea' ) )
                 default:
                     require_once( $this->templates .'/home.php' );
                 break;
+
+                // Example
+                //case 'settings':
+                //    require_once( $this->templates .'/settings.php' );
+                //break;
             }
 
             // Admin Footer
@@ -94,7 +101,7 @@ if ( ! class_exists( 'MyStarterPlugin_AdminArea' ) )
 
 
         /**
-         * @about Admin Area Tabs
+         * @about Display Admin Area Tabs
          * @location templates/header.php
          * @call <?php echo $this->tabs();?>
          * @return string $html Tab Display
