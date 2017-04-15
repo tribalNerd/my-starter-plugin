@@ -37,8 +37,8 @@ A starter plugin for WordPress plugins development - non-multisite. This starter
 * Setup: templates/home.php with form fields used for settings
 * About: class/class-adminarea.php All admin area related methods
 * About: class/class-core.php Public/private display, shortcodes, register post types, etc.
-* About: class/extended.php Manager class for global access methods (options, messages, etc)
-* About: class/process.php Process form posts (update/delete settings option)
+* About: class/class-extended.php Manager class for global access methods (options, messages, etc)
+* About: class/class-process.php Process form posts (update/delete settings option)
 * About: templates/home.php Form Settings
 * About: Styles & Scripts: assets/script.js & assets/style.css
 
